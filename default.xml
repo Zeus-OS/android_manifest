@@ -787,8 +787,8 @@
   <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
 
-  <!-- Havoc additions -->
-  <include name="snippets/havoc.xml" />
+  <!-- ZenX additions -->
+  <include name="snippets/zenx.xml" />
   <include name="snippets/lineage.xml" />
 
 </manifest>

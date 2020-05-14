@@ -1,10 +1,10 @@
-Havoc-OS
+ZenX-OS
 ===========
 
 
 Getting Started
 ---------------
-To get started with the Havoc-OS sources, you'll need to get
+To get started with the ZenX-OS sources, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/develop).
 
 
@@ -16,22 +16,25 @@ You will need to set up some directories in your build environment.
 To create them run:
 
 ```bash
-   mkdir -p ~/bin
-   mkdir -p ~/havoc
+   mkdir -p ~/zenx
 ```
 
 Install the Repository
 ----------------------
 
-Enter the following to download the "repo" binary and make it executable:
+Enter the following command to download the `repo` binary and make it executable:
 
-curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
+```bash
+curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > /usr/local/bin/repo && chmod a+x /usr/local/bin/repo
+```
 
-You may need to reboot for these changes to take effect.
+ * Here we are adding the `repo` binary to /usr/local/bin, so we can call it anywhere without adding binary directory to PATH variable.
+ 
+You may need to reinitialize the terminal for these changes to take effect.
 Now enter the following to initialize the repository:
 
 ```bash
-   cd ~/havoc
+   cd ~/zenx
 ```
 
 
@@ -39,16 +42,27 @@ To initialize your local repository, use this command:
 ------------------------------------------------------
 
 ```bash
-   repo init -u https://github.com/Havoc-OS/android_manifest.git -b ten
+   repo init -u https://github.com/ZenX-OS/android_manifest.git -b ten
 ```
-  
+
+or you can do a shallow clone if you dont't have much bandwidth
+
+```bash
+   repo init -u https://github.com/ZenX-OS/android_manifest.git -b ten --depth=1
+```
+
+Shallow clone lets you pull down just the latest commits, not the entire repo history. So if your project has years of history, or history from thousands of commits, you can select a particular depth to pull.
+
+So if we are providing argument of `-- depth 1` to the repo init command it will copy only the latest revision of a repo:
+
 To Sync the source:
 ----------------
 
-```bash
-  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-```
+You can just use `repo sync`, but this will save you from lot of terminal spam, data and time.
 
+```bash
+repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
 
 Building the System
 ---------------
@@ -67,4 +81,4 @@ Enter the number of the build you want to start and press enter
 Applying for Maintainership
 ---------------
 
-If you have successfully built for your device and want to apply for maintainership then drop in a message to SKULSHADY on Telegram or XDA.
+If you have successfully built for your device and want to apply for maintainership then drop in a message to ZeNiXxX on Telegram or XDA.
