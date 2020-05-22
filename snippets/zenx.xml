@@ -16,7 +16,7 @@
           revision="ten" /> -->
 
   <remote name="zenx-gapps"
-          fetch="ssh://git@gitlab.com/ZenX-GApps"
+          fetch="https://gitlab.com/zenx-gapps"
           revision="ten" />
 
   <remote  name="gitlab_public"
