@@ -126,4 +126,7 @@
   <project path="vendor/zenx" name="android_vendor_zenx" remote="zenx" />
   <project path="vendor/support" name="android_vendor_support" remote="zenx" />
 
+  <!-- Misc -->
+ <project path="scripts" name="scripts" remote="zenx" revision="master"/>
+
 </manifest>
