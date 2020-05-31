@@ -72,6 +72,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="zenx" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="zenx" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="zenx" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="zenx" />
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="zenx" />
