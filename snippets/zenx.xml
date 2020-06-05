@@ -99,7 +99,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="zenx" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="zenx" />
   <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub" remote="zenx" />
-
+  <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="zenx" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="zenx" />
