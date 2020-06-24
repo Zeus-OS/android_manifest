@@ -81,4 +81,4 @@ Enter the number of the build you want to start and press enter
 Applying for Maintainership
 ---------------
 
-If you have successfully built for your device and want to apply for maintainership then drop in a message to ZeNiXxX on Telegram or XDA.
+You can apply for maintainership here by filling [this form](https://docs.google.com/forms/d/e/1FAIpQLSelSvOc5FmIIZM-hTun_3vQBiv6uS35HLrD9PkDPlbXFWeQpw/viewform)
