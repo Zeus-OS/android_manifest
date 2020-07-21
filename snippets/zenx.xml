@@ -59,6 +59,7 @@
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="zenx" />
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab_public" revision="ten" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="zenx" />
+  <project path="external/pulse" name="android_external_pulse" remote="zenx"/>
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="zenx" />
