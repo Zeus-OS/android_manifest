@@ -1,6 +1,6 @@
 ZenX-OS
 ===========
-![ZenX-OS]()
+![ZenX-OS](https://github.com/Lokesh773/RandomStuff/blob/master/ZenX_banner_o3.png)
 <p align="center">
 
 
