@@ -1,41 +1,13 @@
 ZenX-OS
 ===========
+![ZenX-OS](https://github.com/Lokesh773/RandomStuff/blob/master/ZenX_banner_o3.png)
+<p align="center">
 
 
 Getting Started
 ---------------
 To get started with the ZenX-OS sources, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/develop).
-
-
-Create the Directories
-----------------------
-
-You will need to set up some directories in your build environment.
-
-To create them run:
-
-```bash
-   mkdir -p ~/zenx
-```
-
-Install the Repository
-----------------------
-
-Enter the following command to download the `repo` binary and make it executable:
-
-```bash
-curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > /usr/local/bin/repo && chmod a+x /usr/local/bin/repo
-```
-
- * Here we are adding the `repo` binary to /usr/local/bin, so we can call it anywhere without adding binary directory to PATH variable.
- 
-You may need to reinitialize the terminal for these changes to take effect.
-Now enter the following to initialize the repository:
-
-```bash
-   cd ~/zenx
-```
 
 
 To initialize your local repository, use this command:
@@ -64,7 +36,7 @@ You can just use `repo sync`, but this will save you from lot of terminal spam, 
 repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
-Building the System
+Building Environment
 ---------------
 
 Please note that if you are building on Mac OS X, you are required to install coreutils from MacPorts before you continue.
@@ -72,13 +44,16 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
 
 ```bash
    . build/envsetup.sh
-    brunch
+    brunch $device
 ```
+# XDA Template
+[![XDA-Template](https://github.com/Lokesh773/RandomStuff/blob/master/XDADevelopers_button.png)](https://github.com/ZenX-OS/XDA)
 
-Enter the number of the build you want to start and press enter
 
-
-Applying for Maintainership
+#Applying for Maintainership
 ---------------
 
-You can apply for maintainership here by filling [this form](https://docs.google.com/forms/d/e/1FAIpQLSelSvOc5FmIIZM-hTun_3vQBiv6uS35HLrD9PkDPlbXFWeQpw/viewform)
+[![Form](https://github.com/Lokesh773/RandomStuff/blob/master/Submission_button.png)](https://docs.google.com/forms/d/e/1FAIpQLSelSvOc5FmIIZM-hTun_3vQBiv6uS35HLrD9PkDPlbXFWeQpw/viewform)
+
+# Telegram Support 
+[![Telegram](https://github.com/Lokesh773/RandomStuff/blob/master/Telegram_button.png)](https://t.me/zenXOSGroup)
