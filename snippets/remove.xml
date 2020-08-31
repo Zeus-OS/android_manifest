@@ -88,6 +88,7 @@
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/chromium-webview" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
