@@ -131,8 +131,9 @@
   <project path="vendor/zenx" name="android_vendor_zenx" remote="zenx" />
   <project path="vendor/support" name="android_vendor_support" remote="zenx" />
   <project path="vendor/oplauncher" name="android_vendor_oplauncher" remote="zenx" />
-
+  <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="zenx" />
+  
   <!-- Misc -->
- <project path="scripts" name="scripts" remote="zenx" />
+  <project path="scripts" name="scripts" remote="zenx" />
 
 </manifest>
