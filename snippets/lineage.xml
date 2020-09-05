@@ -25,6 +25,7 @@
   <project path="external/ppp" name="android_external_ppp" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" remote="lineage" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master"/>
 
   <!-- Hardware -->
   <project path="hardware/broadcom/fm" name="android_hardware_broadcom_fm" remote="lineage" />
