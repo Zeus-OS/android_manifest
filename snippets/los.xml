@@ -4,6 +4,32 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.0" />
 
+  <!-- LineageOS additions -->
+  <!--<project path="device/lineage/atv" name="android_device_lineage_atv" />-->
+  <!--<project path="external/libnfc-nxp" name="android_external_libnfc-nxp" />-->
+  <!--<project path="external/libtar" name="android_external_libtar" />-->
+  <!--<project path="external/lineage-sdk-api-coverage" name="android_external_lineage-sdk-api-coverage" />-->
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
+  <!--<project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" />-->
+  <!--<project path="hardware/lineage/telephony" name="android_hardware_lineage_telephony" />-->
+  <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="android_packages_apps_OpenWeatherMapProvider" />-->
+  <!--<project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" />-->
+  <!--<project path="packages/apps/Email" name="android_packages_apps_Email" />-->
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-18.0-legacy-um" remote="los" />
+  <!--<project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />-->
+  <!--<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" />-->
+  <!--<project path="packages/apps/FlipFlap" name="android_packages_apps_FlipFlap" />-->
+  <!--<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />-->
+  <!--<project path="packages/apps/Profiles" name="android_packages_apps_Profiles" />-->
+  <!--<project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" />-->
+  <!--<project path="packages/apps/Snap" name="android_packages_apps_Snap" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />-->
+  <!--<project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" />-->
+  <!--<project path="packages/apps/Updater" name="android_packages_apps_Updater" />-->
+  <!--<project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" />-->
+  <!--<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" />-->
+  <!--<project path="prebuilts/lineage-sdk" name="android_prebuilts_lineage-sdk" clone-depth="1" />-->
 
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" />
@@ -33,27 +59,6 @@
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
 
   <!-- Qualcomm Hals -->
-  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="BlissRoms" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- for AOSP sdm845, we override os_pickup.mk -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-  </project>
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-17.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" revision="lineage-17.1" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="los" revision="lineage-17.1-caf" />
