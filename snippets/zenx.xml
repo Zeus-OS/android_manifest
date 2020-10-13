@@ -18,6 +18,10 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <remote name="private"
+          fetch="ssh://git@github.com/ZeNiXxX"
+          revision="11" />
+
   <!-- General Repos -->
   <project path="art" name="android_art" remote="ZenX-OS" />
   <project path="bionic" name="android_bionic" remote="ZenX-OS" />
@@ -41,7 +45,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="ZenX-OS" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="ZenX-OS" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="private" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ZenX-OS" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ZenX-OS" />
 
