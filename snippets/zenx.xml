@@ -112,6 +112,6 @@
   <project path="vendor/zenx" name="android_vendor_zenx" remote="ZenX-OS" />
   <project path="vendor/support" name="android_vendor_support" remote="ZenX-OS" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="ZenX-OS" />
-  <project path="vendor/gapps" name="zenx-gapps/android_gapps" remote="gitlab" revision="r" />
+  <project path="vendor/gapps" name="zenx-gapps/android_apps" remote="gitlab" revision="r" />
 
 </manifest>
