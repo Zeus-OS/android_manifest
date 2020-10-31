@@ -69,7 +69,7 @@
 
   
   <!-- Packages -->
-  <!-- <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub" remote="ZenX-OS" /> -->
+  <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub" remote="private" />
   <project path="packages/apps/ZenXUpdater" name="android_packages_apps_ZenxUpdater" remote="ZenX-OS" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="ZenX-OS" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="ZenX-OS" />
