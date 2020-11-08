@@ -22,6 +22,9 @@
           fetch="ssh://git@github.com/ZeNiXxX"
           revision="11" />
 
+  <remote  name="gitlab_public"
+           fetch="https://gitlab.com/ZeNiXxX" />
+
   <!-- General Repos -->
   <project path="art" name="android_art" remote="ZenX-OS" />
   <project path="bionic" name="android_bionic" remote="ZenX-OS" />
@@ -52,6 +55,7 @@
   <!-- External -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="ZenX-OS" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="ZenX-OS" />
+  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab_public" revision="11" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="ZenX-OS" />
