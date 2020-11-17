@@ -51,7 +51,6 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="private" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ZenX-OS" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ZenX-OS" />
-  <project path="frameworks/opt/wifi" name="android_frameworks_opt_net_wifi" remote="ZenX-OS" />
 
   <!-- External -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="ZenX-OS" />
