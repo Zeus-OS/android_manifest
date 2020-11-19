@@ -91,6 +91,7 @@
   <project path="packages/providers/CallLogProvider" name="android_packages_providers_CallLogProvider" remote="ZenX-OS" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="ZenX-OS" />
   <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" remote="ZenX-OS" />
+  <project path="packages/apps/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="ZenX-OS" />
   <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" remote="ZenX-OS" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="ZenX-OS" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="ZenX-OS" />
