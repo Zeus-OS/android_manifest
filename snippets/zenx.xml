@@ -53,7 +53,6 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ZenX-OS" />
 
   <!-- External -->
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="ZenX-OS" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="ZenX-OS" />
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab_public" revision="11" />
 

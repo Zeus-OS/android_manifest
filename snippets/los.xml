@@ -3,32 +3,6 @@
   <remote name="los"
           fetch="https://github.com/LineageOS"
           revision="lineage-18.0" />
-
-  <!-- LineageOS additions -->
-  <!--<project path="device/lineage/atv" name="android_device_lineage_atv" />-->
-  <!--<project path="external/libnfc-nxp" name="android_external_libnfc-nxp" />-->
-  <!--<project path="external/libtar" name="android_external_libtar" />-->
-  <!--<project path="external/lineage-sdk-api-coverage" name="android_external_lineage-sdk-api-coverage" />-->
-  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
-  <!--<project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" />-->
-  <!--<project path="hardware/lineage/telephony" name="android_hardware_lineage_telephony" />-->
-  <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="android_packages_apps_OpenWeatherMapProvider" />-->
-  <!--<project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" />-->
-  <!--<project path="packages/apps/Email" name="android_packages_apps_Email" />-->
-  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" />
-  <!--<project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />-->
-  <!-- <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" /> -->
-  <!--<project path="packages/apps/FlipFlap" name="android_packages_apps_FlipFlap" />-->
-  <!--<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />-->
-  <!--<project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" />-->
-  <!--<project path="packages/apps/Snap" name="android_packages_apps_Snap" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />-->
-  <!--<project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" />-->
-  <!--<project path="packages/apps/Updater" name="android_packages_apps_Updater" />-->
-  <!--<project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" />-->
-  <!--<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" />-->
-  <!--<project path="prebuilts/lineage-sdk" name="android_prebuilts_lineage-sdk" clone-depth="1" />-->
-
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
@@ -50,6 +24,7 @@
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="los" />
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
@@ -124,15 +99,18 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="los" revision="lineage-17.1" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="los" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="los" revision="lineage-18.0-caf" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
 
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="los" />
   <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="los" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="los" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="los" />
+  <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="los" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
@@ -167,6 +145,7 @@
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" revision="lineage-18.0-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" revision="lineage-18.0-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="los" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="los" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
