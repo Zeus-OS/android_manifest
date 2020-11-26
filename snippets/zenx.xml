@@ -85,6 +85,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ZenX-OS" />
   <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="ZenX-OS" />
   <project path="packages/overlays/zenx" name="android_packages_overlays_zenx" remote="ZenX-OS" />
+  <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="ZenX-OS" />
 
   <!-- Providers -->
   <project path="packages/apps/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="ZenX-OS" />
