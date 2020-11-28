@@ -97,6 +97,7 @@
   <project path="system/core" name="android_system_core" remote="ZenX-OS" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ZenX-OS" />
   <project path="system/vold" name="android_system_vold" remote="ZenX-OS" />
+  <project path="system/netd" name="android_system_netd" remote="ZenX-OS" />
 
   <!-- Sepolicy -->
   <project path="device/zenx/sepolicy" name="android_device_zenx_sepolicy" remote="ZenX-OS" />
