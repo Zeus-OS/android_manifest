@@ -19,7 +19,7 @@
   <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/json-c" name="android_external_json-c" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" revision="lineage-17.1" />
+  <!-- <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" revision="lineage-17.1" /> -->
   <project path="external/libcxx" name="android_external_libcxx" remote="los" />
   <project path="external/nano" name="android_external_nano" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
@@ -103,7 +103,7 @@
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-sm8250" />
-  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="los" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="los" revision="lineage-18.0-caf"/>
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="los" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="los" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="los" revision="lineage-18.0-caf" />
@@ -119,6 +119,7 @@
   <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="los" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="los" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="los" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="los" />
 
   <!-- Prebuilts -->
@@ -164,6 +165,7 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los"/>
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="los" />
+
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los"/>
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los"/>
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="los"/>
