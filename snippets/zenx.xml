@@ -66,6 +66,7 @@
   <project path="packages/overlays/zenx" name="android_packages_overlays_zenx" remote="ZenX-OS" />
   <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="ZenX-OS" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="ZenX-OS" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="ZenX-OS" />
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="ZenX-OS" />
