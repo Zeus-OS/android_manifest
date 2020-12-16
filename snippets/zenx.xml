@@ -47,6 +47,8 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="ZenX-OS" revision="11_1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ZenX-OS" />
 
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="ZenX-OS"/>
+
   <!-- External -->
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="ZenX-OS" revision="11"/>
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab_public" revision="11" />

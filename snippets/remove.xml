@@ -32,6 +32,7 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/Contacts" />
