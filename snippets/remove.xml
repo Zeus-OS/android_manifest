@@ -7,6 +7,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/development" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/tinycompress" />
@@ -24,7 +25,6 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
@@ -32,12 +32,15 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -49,6 +52,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/apps/SecureElement" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />

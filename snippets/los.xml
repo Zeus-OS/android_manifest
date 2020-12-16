@@ -3,6 +3,10 @@
   <remote name="los"
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
+
+  <project path="build/blueprint" name="android_build_blueprint" remote="los" />
+  <project path="development" name="android_development" remote="los" />
+
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
@@ -33,6 +37,10 @@
   <project path="external/zip" name="android_external_zip" remote="los" />
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="los" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" />
+
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
@@ -110,6 +118,8 @@
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="los" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="los" revision="lineage-18.0-caf" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="los" />
 
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
@@ -123,6 +133,20 @@
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="los" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="los" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="los" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="los" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="los" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="los" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="los" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="los" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="los" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="los" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="los" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="los" />
+
+    <!-- Providers -->
+  <project path="packages/apps/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="los" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="los" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
@@ -141,6 +165,12 @@
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="los" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
 
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="los"/>
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.1-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.1-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="los" />
+
   <!-- System Repos -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
   <project path="system/qcom" name="android_system_qcom" remote="los" revision="lineage-17.1" />
@@ -148,6 +178,7 @@
   <project path="system/libufdt" name="android_system_libufdt" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" remote="los" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="los" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="los" />
 
   <!-- Tools -->
   <project path="tools/metalava" name="android_tools_metalava" remote="los" />
