@@ -48,12 +48,11 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ZenX-OS" />
 
   <!-- External -->
-  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="ZenX-OS" />
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="ZenX-OS" revision="11"/>
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab_public" revision="11" />
-
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ZenX-OS" />
-  <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="ZenX-OS" />
+  <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="ZenX-OS" revision="11"/>
   <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub" remote="private" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="ZenX-OS" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="ZenX-OS" />
@@ -61,12 +60,12 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="ZenX-OS" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ZenX-OS" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ZenX-OS" />
-  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="ZenX-OS" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="ZenX-OS" revision="11"/>
   <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="ZenX-OS" />
-  <project path="packages/overlays/zenx" name="android_packages_overlays_zenx" remote="ZenX-OS" />
-  <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="ZenX-OS" />
-  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="ZenX-OS" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="ZenX-OS" />
+  <project path="packages/overlays/zenx" name="android_packages_overlays_zenx" remote="ZenX-OS" revision="11"/>
+  <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="ZenX-OS" revision="11"/>
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="ZenX-OS" revision="11"/>
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="ZenX-OS" revision="11"/>
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="ZenX-OS" />
@@ -80,7 +79,7 @@
 
   <!-- Vendor -->
   <project path="vendor/lineage" name="android_vendor_zenx" remote="ZenX-OS" />
-  <project path="vendor/support" name="android_vendor_support" remote="ZenX-OS" />
+  <project path="vendor/support" name="android_vendor_support" remote="ZenX-OS" revision="11" />
   <project path="vendor/gapps" name="saikiran2001/android_vendor_gapps" remote="gitlab" revision="11" />
 
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="ZenX-OS" />
