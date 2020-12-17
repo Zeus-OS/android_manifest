@@ -5,6 +5,10 @@
           fetch="https://github.com/ZenX-OS"
           revision="11.1" />
 
+  <remote name="crdroid"
+          fetch="https://github.com/crdroidandroid"
+          revision="11.0" />
+
   <remote name="ZenX-Devices"
           fetch="https://github.com/ZenX-Devices" />
 
@@ -50,8 +54,10 @@
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="ZenX-OS"/>
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="crdroid" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="ZenX-OS" revision="11"/>
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab_public" revision="11" />
+
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ZenX-OS" />
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="ZenX-OS" revision="11"/>
