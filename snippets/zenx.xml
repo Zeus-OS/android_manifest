@@ -84,6 +84,7 @@
   <project path="vendor/lineage" name="android_vendor_zenx" remote="ZenX-OS" />
   <project path="vendor/support" name="android_vendor_support" remote="ZenX-OS" revision="11" />
   <project path="vendor/gapps" name="saikiran2001/android_vendor_gapps" remote="gitlab" revision="11" />
+  <project path="vendor/zenxOTA" name="android_vendor_zenxOTA" remote="ZenX-OS" />
 
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="ZenX-OS" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="ZenX-OS" />
