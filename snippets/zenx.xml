@@ -83,6 +83,7 @@
 
   <!-- Sepolicy -->
   <project path="device/lineage/sepolicy" name="android_device_zenx_sepolicy" remote="ZenX-OS" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="ZenX-OS" />
 
   <!-- Vendor -->
   <project path="vendor/addons" name="android_vendor_addons" remote="ZenX-OS" />
