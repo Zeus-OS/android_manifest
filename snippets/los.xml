@@ -142,7 +142,7 @@
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="los" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="los" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los" />
-
+  <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="los" />
 
     <!-- Providers -->
   <project path="packages/apps/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="los" />
