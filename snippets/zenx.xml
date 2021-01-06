@@ -48,7 +48,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="ZenX-OS" revision="11.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="private" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="ZenX-OS" revision="11_1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="ZenX-OS" revision="11.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ZenX-OS" />
 
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="ZenX-OS"/>

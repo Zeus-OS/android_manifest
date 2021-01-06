@@ -14,7 +14,7 @@ To initialize your local repository, use this command:
 ------------------------------------------------------
 
 ```bash
-   repo init -u https://github.com/ZenX-OS/android_manifest.git -b 11
+   repo init -u https://github.com/ZenX-OS/android_manifest.git -b 11.1
 ```
 
 or you can do a shallow clone if you dont't have much bandwidth
