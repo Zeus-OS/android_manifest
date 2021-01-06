@@ -16,6 +16,8 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/toybox" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -23,7 +25,6 @@
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
@@ -81,6 +82,9 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/tools/metalava" />
+  <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/system/timezone" />
 
   <!-- Remove Google device repos -->
   <remove-project name="device/amlogic/yukawa" />
