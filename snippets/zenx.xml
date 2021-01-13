@@ -80,6 +80,7 @@
   <project path="system/vold" name="android_system_vold" remote="ZenX-OS" />
   <project path="system/netd" name="android_system_netd" remote="ZenX-OS" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="ZenX-OS" />
+  <project path="system/security" name="android_system_security" remote="ZenX-OS" />
 
   <!-- Sepolicy -->
   <project path="device/lineage/sepolicy" name="android_device_zenx_sepolicy" remote="ZenX-OS" />
