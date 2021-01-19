@@ -85,6 +85,7 @@
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/iorap" />
 
   <!-- Remove Google device repos -->
   <remove-project name="device/amlogic/yukawa" />
