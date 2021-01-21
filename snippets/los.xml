@@ -45,7 +45,6 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" />
 
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
 
