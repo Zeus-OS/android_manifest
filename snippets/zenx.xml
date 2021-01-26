@@ -54,7 +54,9 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="private" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ZenX-OS" revision="11.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ZenX-OS" />
-
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="ZenX-OS" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="ZenX-OS" groups="pdk" />
+  
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="ZenX-OS"/>
 
   <!-- External -->
