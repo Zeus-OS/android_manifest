@@ -77,13 +77,12 @@
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="ZenX-OS" revision="11"/>
   <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="ZenX-OS" revision="11"/>
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="ZenX-OS" revision="11"/>
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="ZenX-OS" revision="11"/>
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="ZenX-OS" />
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="ZenX-OS" />
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="ZenX-OS" />
   <project path="system/core" name="android_system_core" remote="ZenX-OS" />
-  <project path="system/vold" name="android_system_vold" remote="ZenX-OS" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="ZenX-OS" />
   <project path="system/security" name="android_system_security" remote="ZenX-OS" />
   <project path="system/iorap" name="android_system_iorap" remote="ZenX-OS" />
@@ -104,6 +103,12 @@
   <!-- NFC Stack -->
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />
 
   <!-- CrDroid -->
   <project path="libcore" name="android_libcore" remote="crdroid" />
@@ -124,5 +129,7 @@
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="crdroid" />
   <project path="system/netd" name="android_system_netd" remote="crdroid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="crdroid" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="crdroid" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="crdroid" />
 
 </manifest>

@@ -43,7 +43,6 @@
   <!-- Hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" />
 
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
 
@@ -140,7 +139,6 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="los" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="los" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="los" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="los" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="los" />
 
@@ -150,12 +148,6 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="los" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="los" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" remote="los" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="los" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="los"  />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="los" />
 
@@ -180,6 +172,7 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="los" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
+  <project path="system/vold" name="android_system_vold" remote="los" />
 
   <!-- Tools -->
   <project path="tools/metalava" name="android_tools_metalava" remote="los" />
