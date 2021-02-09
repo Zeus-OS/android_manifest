@@ -100,6 +100,8 @@
 
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="ZenX-OS" />
 
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="ZenX-OS" />
+
   <!-- NFC Stack -->
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
