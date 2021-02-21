@@ -29,6 +29,10 @@
   <remote  name="gitlab_public"
            fetch="https://gitlab.com/ZeNiXxX" />
 
+  <remote name="ZenX-OS-priv"
+          fetch="ssh://git@github.com/ZenX-OS"
+          revision="dev" />
+
   <!-- General Repos -->
   <project path="art" name="android_art" remote="ZenX-OS" />
   <project path="bionic" name="android_bionic" remote="ZenX-OS" />
@@ -69,7 +73,7 @@
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="ZenX-OS" revision="11"/>
   <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub" remote="private" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="ZenX-OS" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="ZenX-OS" />
+  <project path="packages/apps/ZeusLauncher" name="android_packages_apps_ZeusLauncher" remote="ZenX-OS"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ZenX-OS" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="ZenX-OS" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ZenX-OS" />
