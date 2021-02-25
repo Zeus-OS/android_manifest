@@ -26,12 +26,12 @@
           fetch="ssh://git@github.com/ZeNiXxX"
           revision="11.1" />
 
-  <remote  name="gitlab_public"
-           fetch="https://gitlab.com/ZeNiXxX" />
-
   <remote name="ZenX-OS-priv"
           fetch="ssh://git@github.com/ZenX-OS"
           revision="dev" />
+
+  <remote  name="gitlab_public"
+           fetch="https://gitlab.com/ZeNiXxX" />
 
   <!-- General Repos -->
   <project path="art" name="android_art" remote="ZenX-OS" />
@@ -55,7 +55,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="ZenX-OS" revision="11.1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="private" />
+  <project path="frameworks/base" name="android_frameworks_base_development" remote="ZenX-OS-priv" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ZenX-OS" revision="11.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ZenX-OS" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="ZenX-OS" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
@@ -71,9 +71,9 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ZenX-OS" />
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="ZenX-OS" revision="11"/>
-  <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub" remote="private" />
+  <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub_development" remote="ZenX-OS-priv" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="ZenX-OS" />
-  <project path="packages/apps/ZeusLauncher" name="android_packages_apps_ZeusLauncher" remote="ZenX-OS-priv"/>
+  <project path="packages/apps/ZeusLauncher" name="android_packages_apps_ZeusLauncher" remote="ZenX-OS-priv" revision="11.1"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ZenX-OS" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="ZenX-OS" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ZenX-OS" />
