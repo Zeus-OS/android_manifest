@@ -69,7 +69,6 @@
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="gitlab_public" revision="11" />
 
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ZenX-OS" />
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="ZenX-OS" revision="11"/>
   <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub" remote="private" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="ZenX-OS" />
@@ -86,7 +85,6 @@
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="ZenX-OS" />
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="ZenX-OS" />
   <project path="system/core" name="android_system_core" remote="ZenX-OS" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="ZenX-OS" />
   <project path="system/security" name="android_system_security" remote="ZenX-OS" />
