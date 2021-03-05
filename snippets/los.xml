@@ -135,15 +135,9 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="los" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="los" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="los" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="los" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="los" />
-  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="los" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="los" />
-
-    <!-- Providers -->
-  <project path="packages/apps/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="los" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="los" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
@@ -168,10 +162,9 @@
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="los" />
   <project path="system/libufdt" name="android_system_libufdt" remote="los" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="los" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
-  <project path="system/vold" name="android_system_vold" remote="los" />
+
 
   <!-- Tools -->
   <project path="tools/metalava" name="android_tools_metalava" remote="los" />
@@ -204,6 +197,5 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="los" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="los" />
-  <project path="system/bt" name="android_system_bt" groups="qcom,pdk-qcom" remote="los" />
+
 </manifest>
