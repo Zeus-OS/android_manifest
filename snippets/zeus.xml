@@ -21,6 +21,10 @@
   <remote  name="gitlab_public"
            fetch="https://gitlab.com/ZeNiXxX" />
 
+  <remote name="Zeus-OS-priv"
+          fetch="ssh://git@github.com/Zeus-OS"
+          revision="dev" />
+
   <!-- External Remotes -->
 
   <remote name="crdroid"
@@ -53,7 +57,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="Zeus-OS" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="private" />
+  <project path="frameworks/base" name="android_frameworks_base_development" remote="Zeus-OS-priv" />
   <project path="frameworks/native" name="android_frameworks_native" remote="Zeus-OS" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Zeus-OS" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="Zeus-OS" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
@@ -72,7 +76,7 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="Zeus-OS" />
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="Zeus-OS" />
-  <project path="packages/apps/Olymp" name="android_packages_apps_Olymp" remote="private" />
+  <project path="packages/apps/Olymp" name="android_packages_apps_Olymp_development" remote="Zeus-OS-priv" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="Zeus-OS" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="Zeus-OS" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Zeus-OS" />
