@@ -111,6 +111,7 @@
   <project path="vendor/lineage" name="android_vendor_zeus" remote="Zeus-OS" />
   <project path="vendor/support" name="android_vendor_support" remote="Zeus-OS" /> 
   <project path="vendor/zeusOTA" name="android_vendor_zeusOTA" remote="Zeus-OS" />
+  <project path="vendor/opstuff" name="vendor_opstuff" remote="Zeus-OS" />
     
   <!-- Gapps -->
   <project path="vendor/google/gms" name="zeus-gapps/vendor_google_gms" remote="gitlab" revision="eleven" />
