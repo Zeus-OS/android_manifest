@@ -1,12 +1,12 @@
-ZenX-OS
+Zeus-OS
 ===========
-![ZenX-OS](https://github.com/Lokesh773/RandomStuff/blob/master/ZenX_banner_o3.png)
+![Zeus-OS](https://github.com/Lokesh773/RandomStuff/blob/master/ZenX_banner_o3.png)
 <p align="center">
 
 
 Getting Started
 ---------------
-To get started with the ZenX-OS sources, you'll need to get
+To get started with the Zeus-OS sources, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/develop).
 
 
@@ -14,13 +14,13 @@ To initialize your local repository, use this command:
 ------------------------------------------------------
 
 ```bash
-   repo init -u https://github.com/ZenX-OS/android_manifest.git -b 11.1
+   repo init -u https://github.com/Zeus-OS/android_manifest.git -b 11.1
 ```
 
 or you can do a shallow clone if you dont't have much bandwidth
 
 ```bash
-   repo init -u https://github.com/ZenX-OS/android_manifest.git -b 11.1 --depth=1
+   repo init -u https://github.com/Zeus-OS/android_manifest.git -b 11.1 --depth=1
 ```
 
 Shallow clone lets you pull down just the latest commits, not the entire repo history. So if your project has years of history, or history from thousands of commits, you can select a particular depth to pull.
