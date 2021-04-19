@@ -41,8 +41,6 @@
   <project path="external/icu" name="android_external_icu" remote="los" />
 
   <!-- Hardware -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" />
-
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
 
