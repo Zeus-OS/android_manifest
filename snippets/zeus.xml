@@ -114,8 +114,7 @@
   <project path="vendor/opstuff" name="vendor_opstuff" remote="Zeus-OS" />
     
   <!-- Gapps -->
-  <project path="vendor/google/gms" name="zeus-gapps/vendor_google_gms" remote="gitlab" revision="eleven" />
-  <project path="vendor/google/pixel" name="zeus-gapps/vendor_google_pixel" remote="gitlab" revision="eleven" />
+  <project path="vendor/gapps" name="zeus-gapps/vendor_kronicgapps" remote="gitlab" revision="eleven" />
   
   <project path="scripts" name="scripts" remote="Zeus-OS" revision="master" />
 
