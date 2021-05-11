@@ -112,6 +112,7 @@
   <project path="vendor/support" name="android_vendor_support" remote="Zeus-OS" /> 
   <project path="vendor/zeusOTA" name="android_vendor_zeusOTA" remote="Zeus-OS" />
   <project path="vendor/opstuff" name="vendor_opstuff" remote="Zeus-OS" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="Zeus-OS" />
     
   <!-- Gapps -->
   <project path="vendor/gapps" name="zeus-gapps/vendor_kronicgapps" remote="gitlab" revision="eleven" />
