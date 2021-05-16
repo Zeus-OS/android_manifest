@@ -138,14 +138,22 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="crdroid" />
   <project path="external/vixl" name="android_external_vixl" remote="crdroid" />
   <project path="external/zlib" name="android_external_zlib" remote="crdroid" />
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" clone-depth="1" remote="crdroid" />
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="crdroid" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" clone-depth="1" remote="crdroid" />
   <project path="prebuilts/clang/host/linux-x86/clang-7095922" name="android_prebuilts_clang_host_linux-x86_clang-7095922" remote="crdroid" clone-depth="1" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="crdroid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="crdroid" />
   <project path="hardware/ril" name="android_hardware_ril" remote="crdroid" />
-  
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="crdroid" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="crdroid" />
+  <project path="external/skia" name="android_external_skia" remote="crdroid" />
+  <project path="tools/metalava" name="android_tools_metalava" remote="crdroid" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="crdroid" />
+
+  <!-- Clang 12 version 12.0.5 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="android_prebuilts_clang_host_linux-x86_clang-r416183b" remote="crdroid" clone-depth="1" />
+
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />

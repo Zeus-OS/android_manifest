@@ -162,10 +162,6 @@
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
 
-
-  <!-- Tools -->
-  <project path="tools/metalava" name="android_tools_metalava" remote="los" />
-
   <!-- Vendor -->
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" revision="lineage-18.1-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" revision="lineage-18.1-pn5xx" />
