@@ -144,7 +144,8 @@
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="crdroid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="crdroid" />
-
+  <project path="hardware/ril" name="android_hardware_ril" remote="crdroid" />
+  
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />
