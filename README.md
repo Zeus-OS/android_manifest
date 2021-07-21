@@ -1,6 +1,6 @@
-ZenX-OS
+Zeus-OS
 ===========
-![ZenX-OS](https://github.com/Lokesh773/RandomStuff/blob/master/ZenX_banner_o3.png)
+![Zeus-OS](https://github.com/Lokesh773/RandomStuff/blob/master/ZenX_banner_o3.png)
 <p align="center">
 
 
@@ -14,13 +14,13 @@ To initialize your local repository, use this command:
 ------------------------------------------------------
 
 ```bash
-   repo init -u https://github.com/ZenX-OS/android_manifest.git -b 11.1
+   repo init -u https://github.com/Zeus-OS/android_manifest.git -b 11.1
 ```
 
 or you can do a shallow clone if you dont't have much bandwidth
 
 ```bash
-   repo init -u https://github.com/ZenX-OS/android_manifest.git -b 11.1 --depth=1
+   repo init -u https://github.com/Zeus-OS/android_manifest.git -b 11.1 --depth=1
 ```
 
 Shallow clone lets you pull down just the latest commits, not the entire repo history. So if your project has years of history, or history from thousands of commits, you can select a particular depth to pull.
@@ -47,7 +47,7 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
     brunch $device
 ```
 # XDA Template
-[![XDA-Template](https://github.com/Lokesh773/RandomStuff/blob/master/XDADevelopers_button.png)](https://github.com/ZenX-OS/XDA)
+[![XDA-Template](https://github.com/Lokesh773/RandomStuff/blob/master/XDADevelopers_button.png)](https://github.com/Zeus-OS/XDA)
 
 
 #Applying for Maintainership
@@ -56,4 +56,4 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
 [![Form](https://github.com/Lokesh773/RandomStuff/blob/master/Submission_button.png)](https://docs.google.com/forms/d/e/1FAIpQLSelSvOc5FmIIZM-hTun_3vQBiv6uS35HLrD9PkDPlbXFWeQpw/viewform)
 
 # Telegram Support 
-[![Telegram](https://github.com/Lokesh773/RandomStuff/blob/master/Telegram_button.png)](https://t.me/zenXOSGroup)
+[![Telegram](https://github.com/Lokesh773/RandomStuff/blob/master/Telegram_button.png)](https://t.me/zeusOSGroup)
